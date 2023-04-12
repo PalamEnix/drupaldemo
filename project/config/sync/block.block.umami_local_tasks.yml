@@ -1,0 +1,22 @@
+uuid: 396a0a4d-71ba-4ceb-a9a9-35ed443a542a
+langcode: es
+status: true
+dependencies:
+  theme:
+    - umami
+_core:
+  default_config_hash: IxC1zV9L6MyT897p-qPdP5PQiixF2f7pCSmHvCQJUkM
+id: umami_local_tasks
+theme: umami
+region: tabs
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Pestañas
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

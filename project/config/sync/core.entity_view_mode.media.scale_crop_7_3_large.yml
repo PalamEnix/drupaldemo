@@ -1,0 +1,12 @@
+uuid: 6b3a16f6-6ab0-40c4-8bad-2d6956bfe3eb
+langcode: es
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: B_sFTb1IDrYepEpv0JbwaccNjBlIQFiG12gZaheHge4
+id: media.scale_crop_7_3_large
+label: 'Escala recortada 7:3 largo'
+targetEntityType: media
+cache: true

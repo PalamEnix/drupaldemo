@@ -1,0 +1,10 @@
+uuid: 18b8e412-0d98-4b3c-82d5-2d24cfc8382f
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: z8N89KekZ75jFUeGfDm10tYPfCSpiil6GkH__1bcJyQ
+id: umami_dates
+label: 'Fechas Umami'
+locked: false
+pattern: 'jS F Y'

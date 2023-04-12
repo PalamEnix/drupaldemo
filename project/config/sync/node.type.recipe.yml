@@ -1,0 +1,19 @@
+uuid: 0b0b3609-197e-49fc-af1a-47cd41f5cd6f
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: '-3P1yuM15pcimXHBBhevjW-4aqojpmZbUgAqlVIeweo'
+name: Receta
+type: recipe
+description: 'Agregue una nueva receta al sitio.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

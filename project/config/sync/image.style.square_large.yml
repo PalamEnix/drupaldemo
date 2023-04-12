@@ -1,0 +1,17 @@
+uuid: b658be01-b6a1-4404-8542-e4251976ef1e
+langcode: es
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: NA8SyavQiAMuCA7-JgmsuH2OAvUVjeNpY6jp7A5HRQw
+name: square_large
+label: 'Cuadrado Grande'
+effects:
+  c7627da6-934e-47e2-a795-f10a424bda34:
+    uuid: c7627da6-934e-47e2-a795-f10a424bda34
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 900
+      height: 900
+      anchor: center-center
