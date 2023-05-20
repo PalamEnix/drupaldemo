@@ -1,0 +1,19 @@
+uuid: e199765b-54b5-4f72-970f-009b639af0bc
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - footer
+      - main
+    parent: 'main:'
+name: Course
+type: course
+description: 'Courses of the University'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

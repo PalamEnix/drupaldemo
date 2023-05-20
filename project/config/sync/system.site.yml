@@ -1,7 +1,7 @@
 _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
-langcode: es
-uuid: 34a3a5cc-0070-4b79-8bbb-501beeba5dc6
+langcode: en
+uuid: 74461c5b-8398-4004-bf7f-2fd03033cc36
 name: DrupalDemo
 mail: correo@correocaliente.com
 slogan: ''
@@ -11,4 +11,4 @@ page:
   front: /node
 admin_compact_mode: false
 weight_select_max: 100
-default_langcode: es
+default_langcode: en

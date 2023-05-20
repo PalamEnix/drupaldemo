@@ -1,10 +1,10 @@
-uuid: 664bbaa4-14cf-4710-b8d1-72c76161bf2a
-langcode: es
+uuid: 8be74d37-90da-452f-a478-8bb6b2405804
+langcode: en
 status: true
 dependencies: {  }
 _core:
   default_config_hash: yoNVreoTdTZTY7GuE8fI9Jmxqdz8vlo4ZJKixMNSosw
-name: Etiquetas
+name: Tags
 vid: tags
-description: 'Utilice etiquetas para agrupar artículos sobre temas similares en categorías.'
+description: 'Use tags to group articles on similar topics into categories.'
 weight: 0

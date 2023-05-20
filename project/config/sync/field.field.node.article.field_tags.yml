@@ -1,5 +1,5 @@
-uuid: b9d5960f-9115-4501-b8ad-95ad7135caea
-langcode: es
+uuid: b9178ea6-95ba-4130-a70f-6aee37cb8dde
+langcode: en
 status: true
 dependencies:
   config:
@@ -7,15 +7,15 @@ dependencies:
     - node.type.article
     - taxonomy.vocabulary.tags
 _core:
-  default_config_hash: a2uzf4WANQJf14v1uA_sIsCf5ydFuiYjc69jn5IzUGk
+  default_config_hash: QdUgf_beeoaPiyKorFv0q1fcJpWH_uZTqe_xoVJacrw
 id: node.article.field_tags
 field_name: field_tags
 entity_type: node
 bundle: article
-label: Etiquetas
-description: 'Especifique una lista separada por comas. Por ejemplo: Vegetariano, Brownies de chocolate, Aperitivos'
+label: Tags
+description: 'Enter a comma-separated list. For example: Amsterdam, Mexico City, "Cleveland, Ohio"'
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

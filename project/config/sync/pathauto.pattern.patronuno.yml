@@ -1,0 +1,23 @@
+uuid: c419f17e-2e11-4afe-adbc-1cd799b38cbd
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: patronuno
+label: PatronUno
+type: 'canonical_entities:node'
+pattern: 'basicpage/[node:title]'
+selection_criteria:
+  25f7f481-9915-4cec-bbdf-71aa9f6eac20:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 25f7f481-9915-4cec-bbdf-71aa9f6eac20
+    context_mapping:
+      node: node
+    bundles:
+      article: article
+      page: page
+selection_logic: and
+weight: -5
+relationships: {  }
