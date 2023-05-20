@@ -1,14 +1,16 @@
-uuid: 83d3ff44-4a29-4bd0-af69-d6c6b836fcc2
+uuid: 716cf170-c7cb-4513-a8c2-98515684fb6a
 langcode: en
 status: true
 dependencies:
+  config:
+    - node.type.curso
   module:
     - node
     - user
-id: cursos
-label: Cursos
+id: cursos_recientes
+label: 'Cursos Recientes'
 module: views
-description: 'Vista de Cursos'
+description: 'Vista de Cursos Recientes'
 tag: ''
 base_table: node_field_data
 base_field: nid
@@ -19,7 +21,7 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: Cursos
+      title: 'Cursos Recientes'
       fields:
         title:
           id: title
@@ -124,7 +126,7 @@ display:
             trim: false
             preserve_tags: ''
             html: false
-          element_type: h5
+          element_type: h6
           element_class: ''
           element_label_type: ''
           element_label_class: ''
@@ -143,12 +145,12 @@ display:
         type: full
         options:
           offset: 0
-          items_per_page: 5
+          items_per_page: 3
           total_pages: null
           id: 0
           tags:
-            next: ››
-            previous: ‹‹
+            next: 'Next ›'
+            previous: '‹ Previous'
             first: '« First'
             last: 'Last »'
           expose:
@@ -189,7 +191,7 @@ display:
           entity_type: node
           entity_field: created
           plugin_id: date
-          order: ASC
+          order: DESC
           expose:
             label: ''
             field_identifier: ''
@@ -208,6 +210,15 @@ display:
           group: 1
           expose:
             operator: ''
+        type:
+          id: type
+          table: node_field_data
+          field: type
+          entity_type: node
+          entity_field: type
+          plugin_id: bundle
+          value:
+            curso: curso
       style:
         type: table
         options:
@@ -216,17 +227,9 @@ display:
           default_row_class: true
           columns:
             title: title
-            view_node: view_node
           default: '-1'
           info:
             title:
-              sortable: false
-              default_sort_order: asc
-              align: ''
-              separator: ''
-              empty_column: false
-              responsive: ''
-            view_node:
               sortable: false
               default_sort_order: asc
               align: ''
@@ -241,11 +244,6 @@ display:
           description: ''
       row:
         type: fields
-        options:
-          default_field_elements: true
-          inline: {  }
-          separator: ''
-          hide_empty: false
       query:
         type: views_query
         options:
@@ -255,6 +253,8 @@ display:
           replica: false
           query_tags: {  }
       relationships: {  }
+      link_display: custom_url
+      link_url: /cursos
       header: {  }
       footer: {  }
       display_extenders: {  }
@@ -269,22 +269,14 @@ display:
       tags: {  }
   page_1:
     id: page_1
-    display_title: Cursos
+    display_title: 'Cursos Recientes'
     display_plugin: page
     position: 2
     display_options:
       display_description: ''
+      exposed_block: true
       display_extenders: {  }
-      path: cursos
-      menu:
-        type: none
-        title: ''
-        description: ''
-        weight: 0
-        expanded: false
-        menu_name: main
-        parent: ''
-        context: '0'
+      path: cursos-recientes
     cache_metadata:
       max-age: -1
       contexts:

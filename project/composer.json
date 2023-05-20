@@ -22,7 +22,10 @@
         "drupal/core-project-message": "^10.0",
         "drupal/core-recommended": "^10.0",
         "drupal/devel": "^5.1",
+        "drupal/gin": "^3.0@rc",
+        "drupal/gin_toolbar": "^1.0@rc",
         "drupal/pathauto": "^1.11",
+        "drupal/tara": "^10.0",
         "drush/drush": "^11.5"
     },
     "conflict": {

@@ -1,17 +1,17 @@
-uuid: 1e5c68fb-fc1b-466a-81bd-f2ca88a5f897
+uuid: 6a17e3d5-de5f-4a6e-87b0-6153526a7365
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.body
-    - node.type.course
+    - node.type.curso
   module:
     - text
-id: node.course.body
+id: node.curso.body
 field_name: body
 entity_type: node
-bundle: course
-label: Description
+bundle: curso
+label: Descripción
 description: ''
 required: true
 translatable: true

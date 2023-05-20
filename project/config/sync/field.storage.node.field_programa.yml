@@ -1,12 +1,12 @@
-uuid: 379da469-2d81-4046-b0bc-218501e1675e
+uuid: b4c1b4e4-c708-45cb-afc2-52b8d70f7374
 langcode: en
 status: true
 dependencies:
   module:
     - file
     - node
-id: node.field_program
-field_name: field_program
+id: node.field_programa
+field_name: field_programa
 entity_type: node
 type: file
 settings:

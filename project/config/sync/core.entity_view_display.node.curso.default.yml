@@ -1,19 +1,19 @@
-uuid: ce86fcb9-a045-4bea-a14a-bae088e8d6c0
+uuid: 50e3f51e-a8f2-4001-a2da-3ec12dc34f40
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.course.body
-    - field.field.node.course.field_categoria
-    - field.field.node.course.field_program
-    - node.type.course
+    - field.field.node.curso.body
+    - field.field.node.curso.field_categoria
+    - field.field.node.curso.field_programa
+    - node.type.curso
   module:
     - file
     - text
     - user
-id: node.course.default
+id: node.curso.default
 targetEntityType: node
-bundle: course
+bundle: curso
 mode: default
 content:
   body:
@@ -31,7 +31,7 @@ content:
     third_party_settings: {  }
     weight: 103
     region: content
-  field_program:
+  field_programa:
     type: file_default
     label: above
     settings:

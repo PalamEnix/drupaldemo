@@ -1,19 +1,19 @@
-uuid: 1d660d8b-90f8-4eca-a31a-b4ef675f2866
+uuid: 2b727a21-da0f-451d-98f7-fbd005d48cb2
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.course.body
-    - field.field.node.course.field_categoria
-    - field.field.node.course.field_program
-    - node.type.course
+    - field.field.node.curso.body
+    - field.field.node.curso.field_categoria
+    - field.field.node.curso.field_programa
+    - node.type.curso
   module:
     - text
     - user
-id: node.course.teaser
+id: node.curso.teaser
 targetEntityType: node
-bundle: course
+bundle: curso
 mode: teaser
 content:
   body:
@@ -31,4 +31,4 @@ content:
     region: content
 hidden:
   field_categoria: true
-  field_program: true
+  field_programa: true

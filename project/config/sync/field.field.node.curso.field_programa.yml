@@ -1,17 +1,17 @@
-uuid: 1cc38ad1-adfc-4c03-8aaa-3d4c42eb80a8
+uuid: cbc31582-c480-4e62-9efd-8dfc554b988c
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_program
-    - node.type.course
+    - field.storage.node.field_programa
+    - node.type.curso
   module:
     - file
-id: node.course.field_program
-field_name: field_program
+id: node.curso.field_programa
+field_name: field_programa
 entity_type: node
-bundle: course
-label: Program
+bundle: curso
+label: Programa
 description: ''
 required: false
 translatable: false
@@ -21,7 +21,7 @@ settings:
   handler: 'default:file'
   handler_settings: {  }
   file_directory: '[date:custom:Y]-[date:custom:m]'
-  file_extensions: pdf
-  max_filesize: '25 MB'
+  file_extensions: 'txt pdf docx'
+  max_filesize: ''
   description_field: false
 field_type: file

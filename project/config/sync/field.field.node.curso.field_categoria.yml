@@ -1,15 +1,15 @@
-uuid: 94c82b71-231b-4acc-a2c2-498d8acbe04f
+uuid: 8378b00b-c80e-417c-8a6f-09fe3b5d5e61
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_categoria
-    - node.type.course
-    - taxonomy.vocabulary.tags
-id: node.course.field_categoria
+    - node.type.curso
+    - taxonomy.vocabulary.categoria
+id: node.curso.field_categoria
 field_name: field_categoria
 entity_type: node
-bundle: course
+bundle: curso
 label: Categoría
 description: ''
 required: false
@@ -20,7 +20,7 @@ settings:
   handler: 'default:taxonomy_term'
   handler_settings:
     target_bundles:
-      tags: tags
+      categoria: categoria
     sort:
       field: name
       direction: asc
